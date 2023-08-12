@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+
+.LoginTitle{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.ftitle{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin:0px;
+
+}
+.FieldName{
+    font-size: 30px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    padding-left:10px;
+}
+
+.name{
+    font-size: 20px;
+    text-align: center;
+    width: 85%;
+    height:30px;
+    border:hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background-color: beige;
+    padding-left:20px;
+    outline:none;
+}
+
+.FieldPassword{
+    font-size: 30px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    padding-left:10px;
+}
+
+.password{
+    font-size: 20px;
+    text-align: center;
+    width: 85%;
+    height:30px;
+    border:hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background-color: beige;
+    padding-left:20px;
+    outline:none;
+    
+
+}
+
+.loginBut{
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color:#4A1E1E;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:30px;
+    width:100px;
+    font-weight:20px;
+    height:40px;
+    margin-top: 25px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.loginBut:hover{
+    transition: 0.5s;
+    opacity:1;
+    font-size: 32px;
+}
+.NU{
+    font-size: 20px;
+    color:black;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.NU:hover{
+    transition: 0.5s;
+    font-size: 22px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+
+.know{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: beige;     
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.side{
+    margin-top: -10px;
+    height:100vh;
+    padding: 20px;
+    background-color: #471616;
+}
+
+.Authorname{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.prev{
+    padding-top: 30px;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.Storytitle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    color: #471616;
+    font-size:50px;  
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+}
+
+.bio{
+    color: beige;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.like{
+    text-align: center;
+}
+
+.but{
+    display: flex;
+    width: 100px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    color: black;
+    justify-content: center;
+    transition:0.5s;
+}
+.but:hover{
+    transition:0.5s;
+    font-size: 32px;
+}
+

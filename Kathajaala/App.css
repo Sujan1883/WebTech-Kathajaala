@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+body{
+    padding: 0px 0px 0px 0px;
+}
+
+.navbarItems{
+    color:white;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.navbarItems:hover{
+    transition: 0.6s;
+    font-size: 1.1em;
+    color:#ee6462
+}
+
+
+.navbarlistItem{
+    padding-left:20px ;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.title{
+    padding: 40px;
+    background-color:#471616;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    display: flex;
+    justify-content:center;
+    color:azure;
+}

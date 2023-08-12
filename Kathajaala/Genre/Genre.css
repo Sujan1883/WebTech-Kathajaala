@@ -1,0 +1,8 @@
+.genreSections{
+    border-bottom: 1px solid azure;
+    padding: 10px;
+}
+.genreSections:hover{
+    transition: 0.5s;
+    font-size: 1.1em;
+}

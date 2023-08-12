@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+body{
+    padding: 0px 0px 0px 0px;
+}
+
+.book{
+        display:inline-block;
+        vertical-align: middle;
+        height:200px;
+        width:200px;
+        border:1px solid black;
+        border-radius:5px;
+        margin-right:25px;
+        padding:3px;
+        box-shadow:0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+        text-align:center;
+        transition: 0.6s;
+        background-color:white;
+        margin-bottom: 20px;
+}
+.book:hover{
+    transition: 0.6s;
+    height: 300px;
+    width: 250px;
+}
+#searchIp{
+    height:40px;
+    width:500px;
+    border-radius: 25px;
+    padding-left:20px;
+    font-size: 15px;
+}
+#searchBut{
+    height:45px;
+    width:100px;
+    background-color: #471616;
+    border-radius: 25px;
+    margin-left: 5px;
+    color: azure;
+    transition: 0.5s;
+    opacity: 0.8;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 25px;
+    padding-top: 3.5px;
+}
+#searchBut:hover{
+    transition: 0.5s;
+    opacity: 1;
+}

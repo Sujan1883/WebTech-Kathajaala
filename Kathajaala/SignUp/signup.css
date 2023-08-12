@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+
+
+.SignUpbody{
+    background-color:#471616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.SUtitle{
+    text-align: center;
+    height: fit-content;
+    color:white;
+    font-size:100px;
+    font-family: 'Tenali Ramakrishna';
+}
+
+.SUacc{
+    margin-bottom: 0px;
+    align-items: center;
+    height: fit-content;
+    color:black;
+    font-size:40px;
+    
+}
+
+.SUform{
+    align-items: flex-start;
+    width:400px;
+    height: fit-content;
+    color:black;
+    font-size:20px;
+
+}
+.SUname{
+    font-size: 20px;
+    width:100%;
+    align-items: center;
+}
+.SUbio{
+    font-size: 20px;
+    width:100%;
+    height: 100px;
+}
+
+.SUemail{
+    font-size: 20px;
+    width:100%;
+    align-items: center;
+}
+
+.SUpass{
+    font-size: 20px;
+    width:100%;
+    align-items: center;
+}
+
+.SUcreate{
+    width: 150px;
+    background-color: rgb(71, 22, 20);
+    font-size: 30px;
+    border-radius: 30px;
+    color: beige;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+.SUcreate:hover{
+    transition: 0.5s;
+    opacity: 1;
+    font-size: 32px;
+}
+.SULink{
+    font-size: 15px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    color:#471616;
+}
+.SULink:hover{
+    transition: 0.5s;
+    font-size: 17px;
+}
+
